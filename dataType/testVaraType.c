@@ -64,7 +64,19 @@ int main()
       /*运算符 + - */
       int val = 10;
       printf("val:%d\n", val);
+#endif
+#if 1
+      /*双目运算符*/
+      //int a = 7 + 8;
 
+      int num1 = 10;
+      int num2 =310;
+
+      /*三目运算符*/
+      int num3 = (num1 > num2) ? 100 : 666;
+      printf("num3:%d\n", num3);
+#endif
+#if 0
       /*括号的优先级最高 运算符的优先级用括号的限制*/
       /*后置++*/
        val++;    // val = val + 1
@@ -121,7 +133,7 @@ int main()
        a << 1;
        printf("a:%d\n",a);
 #endif
-#if 1
+#if 0
     /*或 与*/
      int val = 51;
      int orVal = val | 7; 
@@ -134,7 +146,7 @@ int main()
      int notVal = !val;
      printf("notVal:%d\n",notVal);
 #endif
-#if 1
+#if 0
    /*且 或 非*/ 
    int condition1 = 1;
    int condition2 = 5;
