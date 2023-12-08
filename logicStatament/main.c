@@ -4,7 +4,7 @@
 
 int main ()
 {
-#if 0
+#if 1
     /*判断语句*/
     int budget = 5000;
     int apple = 6500;
@@ -27,7 +27,7 @@ int main ()
 #endif
 
 
-#if 0
+#if 1
     int budget = 5000;
     int minbudget = 5500;
     int maxbudget = 8000;
@@ -58,7 +58,7 @@ int main ()
 #endif
 
 /*代码规范：一个函数尽量不要超过80行 最多不要超过120行*/ 
-#if 0
+#if 1
      /*坑：每一个case都需要一个break*/
      int choice = 0;
      printf("输入你的选项");
@@ -95,7 +95,7 @@ int main ()
 #endif
 
 
-#if 0
+#if 1
 /*状态码*/
 enum STATUS_CODE
 {
@@ -113,7 +113,7 @@ enum STATUS_CODE
 
 #endif
 
-#if 0
+#if 1
     srand(time(NULL));
 
      /* 循环 */
@@ -141,7 +141,7 @@ enum STATUS_CODE
 #endif
 
 
-#if 0
+#if 1
   /*代码规范：变量尽量用驼峰式命名*/
   int circleTimes = COUNT_NUM >> 1; 
   int randomNum = 0;

@@ -15,12 +15,12 @@ int main ()
     {
         printf("get a apple!\n");   
     }
-    else if (budget > mi14pro );
+    else if (budget < mi14pro );
     {
         /* code */
         printf("get a mi14proe!\n");
     }
-    else if (budget > mi14pro );
+    else if (budget > huaweip60 );
     {
          printf("get a huaweip60!\n");
     }

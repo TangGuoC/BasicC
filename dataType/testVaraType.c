@@ -73,7 +73,7 @@ int main()
       int num2 =310;
 
       /*三目运算符*/
-      int num3 = (num1 > num2) ? 100 : 666;
+      int num3 = (num1 > num2) / 100 : 666;
       printf("num3:%d\n", num3);
 #endif
 #if 0
