@@ -130,7 +130,7 @@ enum STATUS_CODE
      }
 
 #endif
-#if 0
+#if 1
 
      /*写了一个100以内的数 [1 - 100]*/
      int randomNum = rand() % 100 + 1;
@@ -154,8 +154,8 @@ enum STATUS_CODE
   }
   
 #endif
-#if 0
-     
+#if 1
+    
      int varaNum = 0;\
      do
      {
@@ -163,6 +163,9 @@ enum STATUS_CODE
         printf("varaNum:%d\n",varaNum );
      } while (varaNum);
      
+ 
+   
+
 #endif
 
     return 0;
